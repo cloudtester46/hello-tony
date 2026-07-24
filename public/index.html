@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hello Tony</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <main class="card" aria-label="Greeting">
-      <p class="eyebrow">Hello world</p>
-      <h1>hi tony</h1>
+    <main class="page" aria-label="Animated Tony message">
+      <pre class="tony-output" data-tony-output aria-live="polite"></pre>
+      <footer class="email-footer" data-footer hidden>
+        <p>Regards,</p>
+        <p>Tony</p>
+      </footer>
     </main>
   </body>
 </html>
